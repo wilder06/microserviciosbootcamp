@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="credit-service" />
+        <module name="movement-service" />
+        <module name="bank-cloud-config-server" />
+        <module name="wallet-service" />
+        <module name="bank-service-gateway" />
+        <module name="debit-service" />
+        <module name="client-service" />
+        <module name="bank-service-eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bank-cloud-config-server" target="11" />
+      <module name="bank-service-eureka-server" target="11" />
+      <module name="bank-service-gateway" target="11" />
+      <module name="client-service" target="11" />
+      <module name="credit-service" target="11" />
+      <module name="debit-service" target="11" />
+      <module name="movement-service" target="11" />
+      <module name="wallet-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bank-cloud-config-server" options="-parameters" />
+      <module name="bank-service-eureka-server" options="-parameters" />
+      <module name="bank-service-gateway" options="-parameters" />
+      <module name="client-service" options="-parameters" />
+      <module name="credit-service" options="-parameters" />
+      <module name="debit-service" options="-parameters" />
+      <module name="movement-service" options="-parameters" />
+      <module name="wallet-service" options="-parameters" />
+    </option>
+  </component>
+</project>

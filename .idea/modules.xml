@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bank-cloud-config-server/bank-cloud-config-server.iml" filepath="$PROJECT_DIR$/bank-cloud-config-server/bank-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-service-eureka-server/bank-service-eureka-server.iml" filepath="$PROJECT_DIR$/bank-service-eureka-server/bank-service-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-service-gateway/bank-service-gateway.iml" filepath="$PROJECT_DIR$/bank-service-gateway/bank-service-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-service/client-service.iml" filepath="$PROJECT_DIR$/client-service/client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/credit-service/credit-service.iml" filepath="$PROJECT_DIR$/credit-service/credit-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debit-service/debit-service.iml" filepath="$PROJECT_DIR$/debit-service/debit-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microserviciosbootcamp.iml" filepath="$PROJECT_DIR$/.idea/microserviciosbootcamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movement-service/movement-service.iml" filepath="$PROJECT_DIR$/movement-service/movement-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallet-service/wallet-service.iml" filepath="$PROJECT_DIR$/wallet-service/wallet-service.iml" />
+    </modules>
+  </component>
+</project>
