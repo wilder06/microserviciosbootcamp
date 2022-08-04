@@ -9,6 +9,7 @@
         <module name="credit-service" />
         <module name="movement-service" />
         <module name="bank-cloud-config-server" />
+        <module name="card-service" />
         <module name="wallet-service" />
         <module name="bank-service-gateway" />
         <module name="debit-service" />
@@ -20,6 +21,7 @@
       <module name="bank-cloud-config-server" target="11" />
       <module name="bank-service-eureka-server" target="11" />
       <module name="bank-service-gateway" target="11" />
+      <module name="card-service" target="11" />
       <module name="client-service" target="11" />
       <module name="credit-service" target="11" />
       <module name="debit-service" target="11" />
